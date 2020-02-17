@@ -31,3 +31,5 @@ II)	app.py configuration
  
 Now you are ready to run application:
 -	open cmd and go to the folder which contain all files (here is named flask_app) and write docker-compose up
+
+when container is runing please open localhost:5000/ to use the app or localhost:5000/mapView to use map location
