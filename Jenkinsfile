@@ -7,12 +7,6 @@ pipeline {
       }
     }
 
-    stage('test') {
-      steps {
-        echo 'test'
-      }
-    }
-
   }
   environment {
     scm = 'master'
