@@ -10,12 +10,12 @@ pipeline {
     stage('compile') {
       agent {
         docker {
-          image 'maven:3.6.0-jdk-8-alpine'
+          image 'maven:3.6.3-jdk-8-alpine'
         }
 
       }
       steps {
-        sh 'mvn -f E:/users/houssem/franck_exo/jenkins-data/war/META-INF/maven/org.jenkins-ci.main/jenkins-war/pom.xml clean compile'
+        sh 'mvn clean compile'
       }
     }
 
