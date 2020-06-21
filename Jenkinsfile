@@ -17,7 +17,7 @@ pipeline {
 
       }
       steps {
-        sh 'mvn -N io.takari:maven:wrapper'
+        sh 'docker pull maven:3.6.0-jdk-8-alpine'
         sh './mvnw clean install'
       }
     }
