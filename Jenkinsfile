@@ -15,7 +15,7 @@ pipeline {
 
       }
       steps {
-        sh 'mvn compile'
+        sh 'mvn -f E:/users/houssem/franck_exo/jenkins-data/war/META-INF/maven/org.jenkins-ci.main/jenkins-war clean compile'
       }
     }
 
