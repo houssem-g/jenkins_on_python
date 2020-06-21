@@ -1,0 +1,32 @@
+Started by user [8mha:////4Muh8/xVa80+O5fCIX+KlANI/QGzsELQnTNc6o51Ge55AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9jPzS4uLUXABkn/HfwgAAAA==[0mhoussem
+[Sun Jun 21 13:32:03 GMT 2020] Starting branch indexing...
+[8mha:////4Jv3tUnWEMX++RnXBBGD29xwSHn1nCoiqmKHSc5Qmel+AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTRdRG9lQDMCJimjgAAAA==[0mConnecting to https://api.github.com using houssem/****** (GitHub Access Token)
+Examining [8mha:////4K2owpmMvb7xpRab6tm4f1VCGcezYdG+h7IhTGV6G1PQAAAAph+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLmFQyygpKSi20tdPzyzJKE0C6srVz8gvLS5OzdVN10/LSSzOjk8sKAAAmORLwKsAAAA=[0mhoussem-g/flask_app
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4B1xPyiMj9OL6nWWxmxPwzuqFfayxmfsJ8kbmIeP2O0PAAAAsB+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgVyEgUFKBUNSBENAyADhx3i2JbvgsIarAENQzAOOxBEx2v+a/57vGHAEcamObJ32cE79pay1TVQtKWrNl5olt+f+S28EkjWkFpyWkwB/SZagWFxVheFVjmNW4ml04s2wugvt/ztNwY/eglAGzpJBaZGJPAcUZdimn33qtH4hpnqicaTVVztVAgokQhrxULxA+Vb0DO3AAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 64dd4f184ba597fd22d1b9a424d493578ee34dec)
+
+    Checking branch [8mha:////4CjDNOtFVmgeEOca43jxUtVMrLCF6/KFXPOjUsbY6VhKAAAAsR+LCAAAAAAAAP9djLENwjAQRY8goKdErECuQKIApaIBKaJhAGTgsJM4tmWfUViDNaBhCMZhB4LS8Zr/mv+eHxgED1MVz8Ga9GRNsJrSzc2R14WpdpZpkT1e2d29E0i2MNRkJKsc+tFrhnFeiqtALYzEPfvCyFXjYfKXW3f7i0FHLwFoXCsjhrlidmGJKAtW8di+alQ2hkD1TOJFi1AdhHPInghLMlVhwhfhisOhuAAAAA==[0mjenkins
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: jenkins (366b5c375ad642a6749abcb97c6e3a8907f3e40a → 4c0b356dcf4499dae94e6523c0ebf3f931f8a27e)
+Scheduled build for branch: jenkins
+
+  2 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining houssem-g/flask_app
+
+[Sun Jun 21 13:32:08 GMT 2020] Finished branch indexing. Indexing took 5.5 sec
+Finished: SUCCESS
