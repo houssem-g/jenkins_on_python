@@ -1,11 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'maven:3-alpine'
-      args '-v /root/.m2/repository:/root/.m2/repository'
-    }
-
-  }
+  agent any
   stages {
     stage('SCM') {
       steps {
@@ -14,6 +8,13 @@ pipeline {
     }
 
     stage('build') {
+      agent {
+        docker {
+          image 'maven:3-alpine'
+          args '-v /root/.m2/repository:/root/.m2/repository'
+        }
+
+      }
       steps {
         sh 'mvn clean install'
       }
