@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'maven:3.6.0-jdk-8-alpine'
-      args '-v /root/.m2/repository:/root/.m2/repository'
+      image 'maven:3-alpine'
+      args '-v /root/.m2:/root/.m2'
     }
 
   }
@@ -14,15 +14,14 @@ pipeline {
     }
 
     stage('build') {
-      agent {
-        docker {
-          image 'maven:3.6.0-jdk-8-alpine'
-          args '-v /root/.m2/repository:/root/.m2/repository'
-        }
-
-      }
       steps {
-        sh 'mvn clean install'
+        sh 'mvn -B -DskipTests clean package'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        sh 'mvn test'
       }
     }
 
