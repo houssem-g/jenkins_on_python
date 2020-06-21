@@ -8,12 +8,7 @@ pipeline {
     }
 
     stage('compile') {
-      agent {
-        docker {
-          image 'maven:3.6.3-jdk-8-alpine'
-        }
-
-      }
+      agent any
       steps {
         sh ' docker pull maven:3.6.3-jdk-8-alpine'
         sh 'mvn clean compile'
