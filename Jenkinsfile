@@ -16,7 +16,8 @@ pipeline {
 
       }
       steps {
-        sh 'mvn compile'
+        sh 'mvn -N io.takari:maven:wrapper'
+        sh './mvnw clean install'
       }
     }
 
